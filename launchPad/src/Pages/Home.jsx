@@ -7,60 +7,45 @@ const Home = () => {
         <section className="d-flex justify-content-between align-items-center h-100">
           <div className="w-50 me-4">
             <h1 className="fs-1 fw-bold">
-              Build Solid <span class="text-warning">Programming Skills</span>
+              Build Solid <span class="text-primary">Programming Skills</span>
               On Foundational Computer Science
             </h1>
 
-            <p className="text-white/2 leading-[180%] text-sm md:text-base font-medium">
+            <p className="">
               Do you want to improve your software development skills and job
               readiness? Take the right first step by registering your interest
               in our programs.
             </p>
           </div>
 
-          <div className="w-50 ms-4">
-            <h2 className="">
-              Our Programs
-            </h2>
+          <div className="w-50 ms-4 ">
+            <h2 className="">Our Programs</h2>
 
             <div className="">
-              <ul className="">
-                <li className=" ">
+              <ul className="fs-5 list-group ">
+                <li className="border rounded my-2 border-primary list-group-item list-group-item-dark bg-dark text-light">
                   <div className="">
-                    <div className="">
-                      CS50x with Projecstake Academy
-                    </div>
-                    <div className="">
+                    <div className="p-2 text-primary">CS50x with Projecstake Academy</div>
+                    <div className="p-2">
                       Got some time to spare? Dedicate 12 weeks to learning
                       foundational topics in computer science with peers.
                     </div>
-                        <button className="">
-                          Learn more
-                        </button>
+                    <a className="m-3 text-primary bg-dark text-decoration-none">Learn more</a>
                   </div>
                 </li>
 
-
-                <li class="border-solid border-[0.5px] border-black-3 p-6 rounded-xl">
-                  <div class="relative flex flex-wrap gap-x-3">
-                    <div class="w-full flex-none text-lg md:text-xl font-semibold tracking-tight text-white">
+                <li class="w-100 border rounded my-2 border-primary list-group-item list-group-item-dark bg-dark text-light">
+                  <div class="">
+                    <div class="text-primary p-2">
                       LearnCS
                     </div>
-                    <div class="mt-2 w-full flex-none text-sm md:text-base leading-7 text-white/2">
+                    <div class="p-2">
                       Apply to LearnCS if you are looking for even more
                       challenges and have the time to commit.
                     </div>
-                    <div class="mt-4 flex items-center gap-x-3 text-sm md:text-base leading-7">
-                      <a
-                        href="#"
-                        data-phx-link="redirect"
-                        data-phx-link-state="push"
-                        class="flex flex-row items-center gap-x-3 text-accent disabled-true"
-                      >
-                        <button class="font-semibold text-sm md:text-base disabled-true">
-                          Learn more
-                        </button>
-                      </a>
+
+                    <div class="">
+                    <a className="m-3 text-primary bg-dark text-decoration-none">Learn more</a>
                     </div>
                   </div>
                 </li>
