@@ -1,18 +1,20 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Header, Footer } from "./components";
-import {Home} from "./Pages"
+import {Home, FE} from "./Pages"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <div >
-      <Header />
       <Router>
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Frontend" element={<FE />} />
         </Routes>
-      </Router>
       <Footer />
+      </Router>
     </div>
   );
 }

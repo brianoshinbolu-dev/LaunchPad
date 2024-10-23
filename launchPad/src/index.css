@@ -17,6 +17,14 @@
   background-color: #242424;
 }
 
+.text-bk{
+  color: #242424;
+}
+
+.vhmin-100{
+  min-height: 100vh;
+}
+
 /* a {
   font-weight: 500;
   color: #646cff;
